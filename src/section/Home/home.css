@@ -1,0 +1,126 @@
+.header__image img {
+  margin-top: 5.2rem;
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.chairman-desk {
+  background: #f4fdf4;
+  padding: 40px 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.chairman-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.chairman-image img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.chairman-image img:hover {
+  transform: scale(1.03);
+}
+
+.chairman-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.chairman-text h2 {
+  margin-bottom: 1rem;
+   font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+
+.chairman-text p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 10px 22px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-primary{
+    color: var(--color-white);
+}
+.btn a{
+  color: var(--color-white);
+}
+
+.btn:hover a{
+  background-color: var(--color-white);
+  transform: translateY(-2px);
+  color: var(--color-primary);
+}
+.chairman-image {
+  text-align: center;
+  margin-top: 1rem;
+}
+.chairman-image p{
+  margin-top: 1rem;
+  font-size: 1rem;
+    font-weight: 600;
+  color: var(--color-black);
+  line-height: 1.5;
+}
+span{
+  color: var(--color-primary);
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 765px) {
+ @media screen and (max-width: 768px) {
+  .header__image {
+    max-width: 100%;
+    
+  }
+
+  .header__image img {
+    margin-top: 5.3rem;
+    width: 100%;
+    height: auto;
+     object-fit: cover;
+  display: block;
+  }
+}
+
+
+  .chairman-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chairman-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .chairman-text p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+

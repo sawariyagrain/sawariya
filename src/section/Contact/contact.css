@@ -1,0 +1,96 @@
+.Contact {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0);
+
+
+}
+
+.contact__image img {
+    margin-top: 5.2rem;
+    height: 28vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    resize: none;
+    color: var(--color-black);
+}
+
+
+.off {
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+}
+
+span {
+    font-size: large;
+    font-weight: 550;
+
+}
+
+.cont_num {
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+
+.cont_num a,
+p {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    color: var(--color-white);
+}
+
+.quest {
+    margin-bottom: 1rem;
+}
+
+.btnn {
+    font-size: 2rem;
+    margin-right: 1rem;
+
+}
+
+
+.spaan {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Contact {
+        display: grid;
+    }
+
+    .contact__image img {
+        margin-top: 5.2rem;
+        height: 25vh;
+        max-height: min-content;
+        object-fit: cover;
+
+    }
+}

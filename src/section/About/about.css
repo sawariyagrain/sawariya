@@ -1,0 +1,210 @@
+
+.about__image img{
+    margin-top: 5.2rem;
+    height: 28vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.about_head {
+  display: grid;
+}
+
+.about_head h1 {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #5c6265;
+}
+
+.about_head p {
+  color: var(--color-black);
+  text-align: left;
+  margin-left: 12rem;
+  margin-right: 9.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 100;
+}
+
+.missvis {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.missvis h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+
+.missvis p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--color-white);
+}
+
+.missvisbgi {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.missviss-bg {
+  background-image: url('../../assets/MissVis.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 60px 20px;
+  color: var(--color-white);
+  width: 100%;
+}
+
+.values-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.value-box {
+  background-color: #f7f7f7;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.value-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.value-box h3 {
+  color: var(--color-primary);
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.value-box p {
+  font-size: 1rem;
+  color: var(--color-black);
+  line-height: 1.5;
+}
+
+.highlight-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.highlight-box {
+  background-color: #f2efdf;
+  border-left: 6px solid var(--color-primary);
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.highlight-box h2 {
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.highlight-box p {
+  font-size: 1.1rem;
+  color: var(--color-black);
+  line-height: 1.6;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 765px) {
+  .about__image img {
+      
+    margin-top: 5.2rem;      
+    height: 25vh;       
+    max-height: min-content;    
+    object-fit: cover;
+    
+  
+  }
+  
+  .about_head p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+
+  .about_head h1 {
+    font-size: 1.8rem;
+  }
+
+  .missviss-bg {
+    padding: 40px 15px;
+    background-position: center center;
+  }
+
+  .missvis {
+    padding: 25px;
+  }
+
+  .missvis h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .missvis p {
+    font-size: 1rem;
+  }
+
+  .values-section {
+    grid-template-columns: 1fr;
+    padding: 30px 15px;
+  }
+
+  .value-box {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .value-box h3 {
+    font-size: 1.3rem;
+    /* text-align: center; */
+  }
+
+  .value-box p {
+    font-size: 0.95rem;
+  }
+
+  .highlight-section {
+    padding: 40px 15px;
+  }
+
+  .highlight-box {
+    padding: 25px 20px;
+  }
+
+  .highlight-box h2 {
+    font-size: 1.6rem;
+  }
+
+  .highlight-box p {
+    font-size: 1rem;
+  }
+}

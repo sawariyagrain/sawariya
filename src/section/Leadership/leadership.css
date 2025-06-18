@@ -1,0 +1,40 @@
+.leadership_image img{
+    margin-top: 5.2rem;
+      height: 28vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.chairam-career img{
+     width: 100%;
+  max-width: 180px;
+  /* display: flexbox; */
+ 
+}
+.md-career img{
+     width: 100%;
+  max-width: 180px;
+  /* display: flexbox; */
+ 
+}
+@media screen and (max-width: 765px){
+ 
+  .leadership_image img{
+      margin-top: 5.2rem;      
+    height: 25vh;       
+    max-height: min-content;    
+    object-fit: cover;
+  }
+    .md-career {
+        flex-direction: column-reverse;
+    text-align: center;
+    order: -1;
+    }
+    
+}
+.md-desk  {
+  background: #f4fdf4;
+  padding: 5px 2px;
+  font-family: 'Segoe UI', sans-serif;
+}
