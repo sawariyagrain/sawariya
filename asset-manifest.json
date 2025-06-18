@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/sawariya/static/css/main.5e4a6ce5.css",
+    "main.js": "/sawariya/static/js/main.27db525f.js",
+    "static/js/453.ed3810f9.chunk.js": "/sawariya/static/js/453.ed3810f9.chunk.js",
+    "static/media/Video.mp4": "/sawariya/static/media/Video.7282a018ddc9e08ea089.mp4",
+    "static/media/Training.jpg": "/sawariya/static/media/Training.221d2110801d2bf3685c.jpg",
+    "static/media/MissVis.jpg": "/sawariya/static/media/MissVis.b70670b67d9c7fa4c331.jpg",
+    "static/media/Main.jpg": "/sawariya/static/media/Main.28978e441ab5db5471be.jpg",
+    "static/media/Chairman.jpg": "/sawariya/static/media/Chairman.ac72996ade83879af75f.jpg",
+    "static/media/md.jpg": "/sawariya/static/media/md.5a5f154008131888f67f.jpg",
+    "static/media/Products.png": "/sawariya/static/media/Products.036da34ed9ea78f5321c.png",
+    "static/media/TND.png": "/sawariya/static/media/TND.7c61c7b7dbe778e416da.png",
+    "static/media/Contact.png": "/sawariya/static/media/Contact.9f8843f24fe04d4f8786.png",
+    "static/media/About.png": "/sawariya/static/media/About.20c93034cdbfd7e66b85.png",
+    "static/media/avatar1.png": "/sawariya/static/media/avatar1.8cd05a0920483235dbdf.png",
+    "static/media/Leadership.png": "/sawariya/static/media/Leadership.737a64417ae77ef5e322.png",
+    "static/media/LAS.png": "/sawariya/static/media/LAS.d6f8c6ff3b14e6d158cf.png",
+    "static/media/Careers.png": "/sawariya/static/media/Careers.d55cabff9c64fed226fd.png",
+    "static/media/Logo.png": "/sawariya/static/media/Logo.0fb6e516ef6e90b7cb12.png",
+    "static/media/avatar2.jpg": "/sawariya/static/media/avatar2.0b7f71828f14ebe1df0e.jpg",
+    "static/media/Footer.jpg": "/sawariya/static/media/Footer.daa0bcd9c9ad6c5c70ac.jpg",
+    "static/media/avatar3.jpg": "/sawariya/static/media/avatar3.0bb51f16e3a2fb775d28.jpg",
+    "index.html": "/sawariya/index.html",
+    "main.5e4a6ce5.css.map": "/sawariya/static/css/main.5e4a6ce5.css.map",
+    "main.27db525f.js.map": "/sawariya/static/js/main.27db525f.js.map",
+    "453.ed3810f9.chunk.js.map": "/sawariya/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e4a6ce5.css",
+    "static/js/main.27db525f.js"
+  ]
+}
