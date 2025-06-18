@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sawariya/static/css/main.5e4a6ce5.css",
-    "main.js": "/sawariya/static/js/main.27db525f.js",
-    "static/js/453.ed3810f9.chunk.js": "/sawariya/static/js/453.ed3810f9.chunk.js",
+    "main.js": "/sawariya/static/js/main.5e4adb01.js",
+    "static/js/453.bb82235b.chunk.js": "/sawariya/static/js/453.bb82235b.chunk.js",
     "static/media/Video.mp4": "/sawariya/static/media/Video.7282a018ddc9e08ea089.mp4",
     "static/media/Training.jpg": "/sawariya/static/media/Training.221d2110801d2bf3685c.jpg",
     "static/media/MissVis.jpg": "/sawariya/static/media/MissVis.b70670b67d9c7fa4c331.jpg",
@@ -23,11 +23,11 @@
     "static/media/avatar3.jpg": "/sawariya/static/media/avatar3.0bb51f16e3a2fb775d28.jpg",
     "index.html": "/sawariya/index.html",
     "main.5e4a6ce5.css.map": "/sawariya/static/css/main.5e4a6ce5.css.map",
-    "main.27db525f.js.map": "/sawariya/static/js/main.27db525f.js.map",
-    "453.ed3810f9.chunk.js.map": "/sawariya/static/js/453.ed3810f9.chunk.js.map"
+    "main.5e4adb01.js.map": "/sawariya/static/js/main.5e4adb01.js.map",
+    "453.bb82235b.chunk.js.map": "/sawariya/static/js/453.bb82235b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e4a6ce5.css",
-    "static/js/main.27db525f.js"
+    "static/js/main.5e4adb01.js"
   ]
 }
