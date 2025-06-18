@@ -1,9 +1,11 @@
-const data= [
-    {id: 1, link:'/', title:'Home'},
-    {id: 2, link:'about', title:'About us'},
-    {id: 3, link:'product', title:'Products'},
-    {id: 4, link:'leadership', title:'Leadership'},
-    {id: 5, link:'career', title:'Careers'},
-    {id: 6, link:'contact ', title:'Contact us'},
-]
+const data = [
+  { id: 1, title: "Home", link: "/" },
+  { id: 2, title: "About", link: "/about" },
+  { id: 3, title: "Products", link: "/product" },
+  { id: 4, title: "Leadership", link: "/leadership" },
+  { id: 5, title: "Career", link: "/career" },
+  { id: 6, title: "Contact", link: "/contact" },
+  // add more routes as needed
+];
+
 export default data;
